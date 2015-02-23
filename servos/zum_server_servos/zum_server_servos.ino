@@ -34,6 +34,7 @@ void setup()
   
   //-- Configure the led 
   pinMode(led, OUTPUT);
+  digitalWrite(led, LOW);
   
   //-- Attach de Servos (Manually)
   servo[0].attach(9);
